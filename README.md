@@ -22,24 +22,25 @@
 
 
 
-# 作为中国大陆用户，建议在运行此代码前先开启VPN
-# 因为Google API可能在中国大陆无法正常使用
-# 运行此代码前请确保已安装所需库：pydub、speech_recognition 以及 ffmpeg
+#作为中国大陆用户，建议在运行此代码前先开启VPN
+#因为Google API可能在中国大陆无法正常使用
+#运行此代码前请确保已安装所需库：pydub、speech_recognition 以及 ffmpeg
 
-# 安装ffmpeg时，请勿使用"pip install ffmpeg"命令
-# 请从官方网站(https://ffmpeg.org/download.html)下载ffmpeg可执行文件并添加到系统PATH中
+#安装ffmpeg时，请勿使用"pip install ffmpeg"命令
+#请从官方网站(https://ffmpeg.org/download.html)
+#下载ffmpeg可执行文件并添加到系统PATH中
 
-# 此代码基于Python 3.12开发，并在Windows 10/11系统测试通过
-# 请确保您的系统环境兼容Python 3.12或更高版本
+#此代码基于Python 3.12开发，并在Windows 10/11系统测试通过
+#请确保您的系统环境兼容Python 3.12或更高版本
 
-# 此代码用于将WAV音频文件按静音分割成多个片段，对每个片段进行语音识别
-# 并将音频片段及其对应的文字识别结果保存到指定输出目录
-# 输出目录将包含分割后的音频文件及带时间戳的list文件
+#此代码用于将WAV音频文件按静音分割成多个片段，对每个片段进行语音识别
+#并将音频片段及其对应的文字识别结果保存到指定输出目录
+#输出目录将包含分割后的音频文件及带时间戳的list文件
 
-# 请确保对指定目录具有文件读写权限
+#请确保对指定目录具有文件读写权限
 
-# 警告：此代码为极简版本，无法替代专业音频处理工作
-# 特别在AI相关程序中不建议使用此代码
+#警告：此代码为极简版本，无法替代专业音频处理工作
+#特别在AI相关程序中不建议使用此代码
 
 
 
@@ -53,7 +54,8 @@
 #このコードを実行する前に、必要なライブラリ（pydub、speech_recognition、ffmpeg）がインストールされていることを確認してください  
 
 #「pip install ffmpeg」コマンドを使用してffmpegをインストールするのは避けてください  
-#代わりに、公式サイト（https://ffmpeg.org/download.html）からffmpegの実行可能ファイルをダウンロードし、システムのPATHに追加してください  
+#代わりに、公式サイト（https://ffmpeg.org/download.html）
+#からffmpegの実行可能ファイルをダウンロードし、システムのPATHに追加してください  
 
 #このコードはPython 3.12で開発され、Windows 10および11でテストされています  
 #システム環境がPython 3.12以降と互換性があることを確認してください  
