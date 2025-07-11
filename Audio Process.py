@@ -127,6 +127,7 @@ def save_chunks_and_list(input_wav, output_dir):
             audio = recognizer.record(source)
         try:
             text = recognizer.recognize_google(audio, language="zh-CN")
+            #text = recognizer.recognize_google(audio, language="en-US")
         except Exception:
             text = f"未识别_{idx}"
 
@@ -154,7 +155,7 @@ def save_chunks_and_list(input_wav, output_dir):
             f.write(line + "\n")
 
 if __name__ == "__main__":
-    input_wav = "H:\\FFOutput\\2.wav"  # 输入的wav文件路径 #input your wav file path
-    output_dir = "H:\\FFOutput\\test2"  # 输出文件夹 #input your output dir path
+    input_wav = ""  # 输入的wav文件路径 #input your wav file path
+    output_dir = ""  # 输出文件夹 #input your output dir path
     print("Please wait!The program is loading...")
     save_chunks_and_list(input_wav, output_dir)
